@@ -1,0 +1,26 @@
+{
+  "server": {
+    "port": 8080,
+    "local": false
+  },
+  "frontend": {
+    "uri": "http://localhost:3000"
+  },
+  "aws": {
+    "region": "ap-northeast-2",
+    "tableName": "fox-ip-cidr"
+  },
+  "slack": {
+    "notifyChannel": "xtrm-devops-fox",
+    "notifyChannelId": "G01HTRG9A3Z",
+    "botId": "temp",
+    "botName": "temp"
+  },
+  "etc": {
+    "tfcIpInfoId": "tfc-range",
+    "tfcIpRangeUrl": "https://app.terraform.io/api/meta/ip-ranges",
+    "keycloakUrl": "https://id.xtrm-dev.io",
+    "keycloakRealm": "devops",
+    "useToken": true
+  }
+}
